@@ -5,12 +5,13 @@ class Student{
     string name;
     int rollNo;
     float marks;
-    void display()
+    void display(){
         cout<<"Name:"<<name
         <<",Roll No:"<<rollNo
-        <<",Marks:"<<marks<<endl
-    
+        <<",Marks:"<<marks<<endl;
+    }
 };
+    
 int main(){
     Student s1,s2,s3;
     s1.name="Raj";
